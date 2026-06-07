@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-label="Чертеж развёртки для Цифровая медиабиблиотека">
+<style>
+.bg{fill:#f0f4f6}.line{stroke:#d7dfe4;stroke-width:3;fill:none}.thin{stroke:#7a8b7e;stroke-width:1.5;fill:none}.wood{fill:#1e2b35;stroke:#d7dfe4;stroke-width:2}.accent{fill:#617c92;stroke:#d7dfe4;stroke-width:2}.white{fill:#fff;stroke:#d7dfe4;stroke-width:2}.head{font:700 32px Arial, sans-serif;fill:#d7dfe4}.text{font:16px Arial, sans-serif;fill:#4d5c50}.label{font:700 18px Arial, sans-serif;fill:#d7dfe4}.small{font:13px Arial, sans-serif;fill:#5e6f63}</style>
+<rect width="1000" height="720" class="bg"/>
+<text x="60" y="60" class="head">Чертёж: Цифровая медиабиблиотека</text>
+<text x="60" y="92" class="text">Развёртка основной стены и принцип размещения мебели. Бюджет: выше среднего.</text>
+<rect x="70" y="135" width="860" height="360" rx="14" fill="#ffffff" stroke="#d7dfe4" stroke-width="4"/>
+<rect x="110" y="165" width="220" height="300" class="wood"/>
+<rect x="360" y="165" width="280" height="300" class="wood"/>
+<rect x="670" y="165" width="220" height="300" class="wood"/>
+<!-- shelves -->
+<line x1="110" y1="205" x2="330" y2="205" class="thin"/><line x1="110" y1="257" x2="330" y2="257" class="thin"/><line x1="110" y1="309" x2="330" y2="309" class="thin"/><line x1="110" y1="361" x2="330" y2="361" class="thin"/><line x1="110" y1="413" x2="330" y2="413" class="thin"/>
+<line x1="360" y1="205" x2="640" y2="205" class="thin"/><line x1="360" y1="257" x2="640" y2="257" class="thin"/><line x1="360" y1="309" x2="640" y2="309" class="thin"/><line x1="360" y1="361" x2="640" y2="361" class="thin"/><line x1="360" y1="413" x2="640" y2="413" class="thin"/>
+<line x1="670" y1="205" x2="890" y2="205" class="thin"/><line x1="670" y1="257" x2="890" y2="257" class="thin"/><line x1="670" y1="309" x2="890" y2="309" class="thin"/><line x1="670" y1="361" x2="890" y2="361" class="thin"/><line x1="670" y1="413" x2="890" y2="413" class="thin"/>
+<rect x="120" y="222" width="14" height="35" fill="#617c92" opacity="0.75"/><rect x="152" y="222" width="14" height="35" fill="#617c92" opacity="0.75"/><rect x="184" y="222" width="14" height="35" fill="#617c92" opacity="0.75"/><rect x="216" y="222" width="14" height="35" fill="#617c92" opacity="0.75"/><rect x="248" y="222" width="14" height="35" fill="#617c92" opacity="0.75"/><rect x="280" y="222" width="14" height="35" fill="#617c92" opacity="0.75"/>
+<rect x="380" y="275" width="16" height="44" fill="#d7dfe4" opacity="0.55"/><rect x="418" y="275" width="16" height="44" fill="#d7dfe4" opacity="0.55"/><rect x="456" y="275" width="16" height="44" fill="#d7dfe4" opacity="0.55"/><rect x="494" y="275" width="16" height="44" fill="#d7dfe4" opacity="0.55"/><rect x="532" y="275" width="16" height="44" fill="#d7dfe4" opacity="0.55"/><rect x="570" y="275" width="16" height="44" fill="#d7dfe4" opacity="0.55"/>
+<rect x="690" y="350" width="14" height="38" fill="#617c92" opacity="0.65"/><rect x="720" y="350" width="14" height="38" fill="#617c92" opacity="0.65"/><rect x="750" y="350" width="14" height="38" fill="#617c92" opacity="0.65"/><rect x="780" y="350" width="14" height="38" fill="#617c92" opacity="0.65"/><rect x="810" y="350" width="14" height="38" fill="#617c92" opacity="0.65"/><rect x="840" y="350" width="14" height="38" fill="#617c92" opacity="0.65"/>
+<rect x="390" y="515" width="220" height="55" rx="14" class="white"/><text x="500" y="550" text-anchor="middle" class="label">стол / рабочая зона</text>
+<rect x="150" y="520" width="130" height="65" rx="22" class="accent"/><text x="215" y="560" text-anchor="middle" class="label">кресло</text>
+<rect x="715" y="520" width="130" height="65" rx="22" class="accent"/><text x="780" y="560" text-anchor="middle" class="label">кресло</text>
+<circle cx="500" cy="125" r="14" fill="#617c92"/><line x1="500" y1="20" x2="500" y2="110" class="thin"/><text x="500" y="620" text-anchor="middle" class="small">высота стеллажей — по помещению; нижние полки лучше оставить для часто используемых книг</text>
+<text x="500" y="650" text-anchor="middle" class="small">чертёж показывает принцип: полки + рабочие поверхности + мягкие места + свет</text>
+</svg>
