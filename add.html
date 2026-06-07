@@ -1,0 +1,43 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Добавить свой дизайн — БиблиоДизайн</title><meta name="description" content="Форма добавления собственного варианта дизайна библиотеки."><link rel="stylesheet" href="css/styles.css"></head>
+<body data-page="add"><header class="topbar">
+  <div class="wrapper nav">
+    <a class="logo" href="index.html" aria-label="БиблиоДизайн">
+      <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5.8c0-1 .8-1.8 1.8-1.8H19v14.2H6.8A1.8 1.8 0 0 1 5 16.4V5.8Z" stroke="#315f45" stroke-width="1.8"/><path d="M8 7.5h8M8 10.5h6M8 13.5h7" stroke="#7fb48b" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <span>БиблиоДизайн</span>
+    </a>
+    <button class="mobile-toggle" type="button">Меню</button>
+    <nav class="menu" aria-label="Главное меню">
+      <a data-nav="home" href="index.html">Главная</a>
+      <a data-nav="designs" href="designs.html">Дизайны</a>
+      <a data-nav="constructor" href="constructor.html">Подбор стиля</a>
+      <a data-nav="gallery" href="gallery.html">Галерея</a>
+      <a data-nav="add" href="add.html">Добавить свой</a>
+      <a data-nav="guide" href="guide.html">Советы</a>
+      <a data-nav="chat" href="chat.html">Чат</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-title"><div class="wrapper"><div class="breadcrumb">БиблиоДизайн / Добавить свой</div><h1>Добавить свой дизайн</h1><p class="lead">Заполните карточку своего варианта оформления. Она сохранится в вашем браузере и появится в каталоге и галерее.</p></div></section>
+  <section class="section"><div class="wrapper detail-grid">
+    <form class="form-card" id="addDesignForm">
+      <div class="form-grid">
+        <div class="form-field"><label>Название</label><input name="title" required placeholder="Например: Уютная библиотека у окна"></div>
+        <div class="form-field"><label>Короткое описание</label><input name="tagline" placeholder="Главная идея дизайна"></div>
+        <div class="form-field"><label>Размер</label><select name="space"><option value="small">Маленькое помещение</option><option value="large">Большая библиотека</option></select></div>
+        <div class="form-field"><label>Аудитория</label><select name="audience"><option value="adult">Взрослые</option><option value="kids">Дети</option><option value="family">Семьи</option><option value="youth">Молодёжь</option></select></div>
+        <div class="form-field"><label>Задача</label><select name="task"><option value="quiet">Тихое чтение</option><option value="events">Мероприятия</option><option value="family">Семейный досуг</option><option value="youth">Общение и проекты</option></select></div>
+        <div class="form-field"><label>Картинка</label><input id="imageFile" type="file" accept="image/*"></div>
+        <div class="form-field"><label>Для кого подходит</label><input name="audienceText" placeholder="Например: школьники и родители"></div>
+        <div class="form-field"><label>Тип помещения</label><input name="spaceText" placeholder="Например: небольшой зал 40 м²"></div>
+        <div class="form-field"><label>Палитра</label><input name="palette" placeholder="Белый, шалфейный, дерево"></div>
+        <div class="form-field"><label>Материалы</label><input name="materials" placeholder="Дерево, текстиль, металл"></div>
+        <div class="form-field full"><label>Основные зоны</label><input name="zones" placeholder="Читальная зона, стеллажи, место для встреч"></div>
+        <div class="form-field full"><label>Подробное описание</label><textarea name="description" required placeholder="Опишите, как выглядит пространство и какую задачу решает дизайн"></textarea></div>
+        <div class="form-field full"><label>Рекомендации, каждая с новой строки</label><textarea name="tips" placeholder="Добавить мягкое освещение&#10;Использовать низкие стеллажи&#10;Оставить свободные проходы"></textarea></div>
+      </div>
+      <div class="hero-actions"><button class="btn" type="submit">Сохранить дизайн</button><button class="btn secondary" type="button" id="clearCustom">Очистить мои добавленные</button></div>
+    </form>
+    <div class="detail-panel"><h2>Предпросмотр картинки</h2><p>Если картинка не выбрана, сайт использует стандартную иллюстрацию. Добавленные данные сохраняются только в вашем браузере.</p><img id="imagePreview" alt="Предпросмотр" style="display:none;border-radius:20px;margin-top:16px"></div>
+  </div></section>
+</main><footer class="footer"><div class="wrapper footer-grid"><div><b>БиблиоДизайн</b><br>Подбор идей для оформления библиотек и читальных пространств.</div><div><a href="designs.html">Каталог</a> · <a href="constructor.html">Подбор</a> · <a href="add.html">Добавить дизайн</a></div></div></footer><div class="toast"></div><script src="js/data.js"></script><script src="js/app.js"></script></body></html>

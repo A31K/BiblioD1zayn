@@ -1,0 +1,34 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Подбор стиля — БиблиоДизайн</title><meta name="description" content="Подбор подходящего оформления библиотеки по параметрам."><link rel="stylesheet" href="css/styles.css"></head>
+<body data-page="constructor"><header class="topbar">
+  <div class="wrapper nav">
+    <a class="logo" href="index.html" aria-label="БиблиоДизайн">
+      <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5.8c0-1 .8-1.8 1.8-1.8H19v14.2H6.8A1.8 1.8 0 0 1 5 16.4V5.8Z" stroke="#315f45" stroke-width="1.8"/><path d="M8 7.5h8M8 10.5h6M8 13.5h7" stroke="#7fb48b" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <span>БиблиоДизайн</span>
+    </a>
+    <button class="mobile-toggle" type="button">Меню</button>
+    <nav class="menu" aria-label="Главное меню">
+      <a data-nav="home" href="index.html">Главная</a>
+      <a data-nav="designs" href="designs.html">Дизайны</a>
+      <a data-nav="constructor" href="constructor.html">Подбор стиля</a>
+      <a data-nav="gallery" href="gallery.html">Галерея</a>
+      <a data-nav="add" href="add.html">Добавить свой</a>
+      <a data-nav="guide" href="guide.html">Советы</a>
+      <a data-nav="chat" href="chat.html">Чат</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-title"><div class="wrapper"><div class="breadcrumb">БиблиоДизайн / Подбор стиля</div><h1>Подобрать оформление</h1><p class="lead">Ответьте на три вопроса, и сайт покажет варианты дизайна, которые лучше подходят под вашу задачу.</p></div></section>
+  <section class="section"><div class="wrapper detail-grid">
+    <form class="form-card" id="pickForm">
+      <div class="form-grid">
+        <div class="form-field"><label for="space">Размер помещения</label><select id="space" name="space"><option value="small">Небольшое помещение</option><option value="large">Большой зал</option></select></div>
+        <div class="form-field"><label for="audience">Основная аудитория</label><select id="audience" name="audience"><option value="adult">Взрослые</option><option value="kids">Дети</option><option value="family">Семьи</option><option value="youth">Молодёжь</option></select></div>
+        <div class="form-field full"><label for="task">Главная задача пространства</label><select id="task" name="task"><option value="quiet">Тихое чтение и учёба</option><option value="events">Мероприятия и встречи</option><option value="family">Семейный досуг</option><option value="youth">Проекты и общение</option></select></div>
+      </div>
+      <div class="hero-actions"><button class="btn" type="submit">Показать варианты</button><a class="btn secondary" href="designs.html">Открыть весь каталог</a></div>
+    </form>
+    <div><div class="note">Результаты появятся ниже после подбора. Это не строгий расчёт, а удобная подсказка для выбора направления оформления.</div></div>
+  </div></section>
+  <section class="section"><div class="wrapper"><div class="section-head"><div><h2>Подходящие варианты</h2><p class="section-text">Карточки появятся после заполнения формы.</p></div></div><div class="cards" id="pickResult"><div class="empty">Выберите параметры и нажмите «Показать варианты».</div></div></div></section>
+</main><footer class="footer"><div class="wrapper footer-grid"><div><b>БиблиоДизайн</b><br>Подбор идей для оформления библиотек и читальных пространств.</div><div><a href="designs.html">Каталог</a> · <a href="constructor.html">Подбор</a> · <a href="add.html">Добавить дизайн</a></div></div></footer><div class="toast"></div><script src="js/data.js"></script><script src="js/app.js"></script></body></html>

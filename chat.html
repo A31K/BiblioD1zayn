@@ -1,0 +1,52 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Чат — БиблиоДизайн</title><meta name="description" content="Обсуждение идей оформления библиотек и обмен вопросами."><link rel="stylesheet" href="css/styles.css"></head>
+<body data-page="chat"><header class="topbar">
+  <div class="wrapper nav">
+    <a class="logo" href="index.html" aria-label="БиблиоДизайн">
+      <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5.8c0-1 .8-1.8 1.8-1.8H19v14.2H6.8A1.8 1.8 0 0 1 5 16.4V5.8Z" stroke="#315f45" stroke-width="1.8"/><path d="M8 7.5h8M8 10.5h6M8 13.5h7" stroke="#7fb48b" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <span>БиблиоДизайн</span>
+    </a>
+    <button class="mobile-toggle" type="button">Меню</button>
+    <nav class="menu" aria-label="Главное меню">
+      <a data-nav="home" href="index.html">Главная</a>
+      <a data-nav="designs" href="designs.html">Дизайны</a>
+      <a data-nav="constructor" href="constructor.html">Подбор стиля</a>
+      <a data-nav="gallery" href="gallery.html">Галерея</a>
+      <a data-nav="add" href="add.html">Добавить свой</a>
+      <a data-nav="guide" href="guide.html">Советы</a>
+      <a data-nav="chat" href="chat.html">Чат</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-title"><div class="wrapper"><div class="breadcrumb">БиблиоДизайн / Чат</div><h1>Чат и обсуждения</h1><p class="lead">Здесь пользователи могут обсуждать идеи оформления библиотек, задавать вопросы и делиться решениями по стилю, мебели, зонированию и освещению.</p></div></section>
+  <section class="section"><div class="wrapper chat-layout">
+    <aside class="chat-sidebar">
+      <h2>Комнаты</h2>
+      <div class="room-list" id="roomList">
+        <button class="room-btn active" data-room="general">Общее обсуждение</button>
+        <button class="room-btn" data-room="styles">Стили и идеи</button>
+        <button class="room-btn" data-room="kids">Детские библиотеки</button>
+        <button class="room-btn" data-room="tech">Мебель и техника</button>
+      </div>
+      <div class="note">Сообщения сохраняются в браузере. Это удобно для обсуждения идей в готовом прототипе сайта.</div>
+    </aside>
+    <div class="chat-panel">
+      <div class="chat-toolbar">
+        <div>
+          <h2 id="chatRoomTitle">Общее обсуждение</h2>
+          <p class="section-text">Обмен мнениями, вопросами и полезными советами.</p>
+        </div>
+        <button class="btn secondary" type="button" id="clearChat">Очистить комнату</button>
+      </div>
+      <div class="chat-box" id="chatMessages"></div>
+      <form class="chat-form" id="chatForm">
+        <div class="form-grid">
+          <div class="form-field"><label>Ваше имя</label><input type="text" name="author" placeholder="Например: Анна" required></div>
+          <div class="form-field"><label>Тема</label><input type="text" name="topic" placeholder="Например: Нужна идея для детского зала"></div>
+          <div class="form-field full"><label>Сообщение</label><textarea name="message" placeholder="Напишите, что именно вас интересует" required></textarea></div>
+        </div>
+        <div class="hero-actions"><button class="btn" type="submit">Отправить сообщение</button></div>
+      </form>
+    </div>
+  </div></section>
+</main><footer class="footer"><div class="wrapper footer-grid"><div><b>БиблиоДизайн</b><br>Подбор идей для оформления библиотек и читальных пространств.</div><div><a href="designs.html">Каталог</a> · <a href="constructor.html">Подбор</a> · <a href="chat.html">Чат</a></div></div></footer><div class="toast"></div><script src="js/data.js"></script><script src="js/app.js"></script></body></html>
